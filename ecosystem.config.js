@@ -8,13 +8,13 @@ module.exports = {
         },
         {
             name: "program-service",
-            script: "java -jar student-service/target/Program-Service-1.0.0.jar",
+            script: "java -jar program-service/target/Program-Service-1.0.0.jar",
             log_file: "./logs/program-service.log",
             instance: 2
         },
         {
             name: "enrollment-service",
-            script: "java -jar student-service/target/Enrollment-Service-1.0.0.jar",
+            script: "java -jar enrollment-service/target/Enrollment-Service-1.0.0.jar",
             log_file: "./logs/enrollment-service.log",
             instance: 2
         }
